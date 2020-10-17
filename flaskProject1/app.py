@@ -16,7 +16,7 @@ def add_data(id):
     if (int)(id) < 4:
         abort(404)
     mas.append(id)
-    return mas
+    return "Petya dobavil"
 
 @app.route('/api/data', methods=['POST'])
 def get_data():
